@@ -3,6 +3,13 @@ import { useState } from "react";
 export default function ContentTemplate({ title, textSections, images }) {
   const [index, setIndex] = useState(0);
 
+  useEffect(() => {
+    images.forEach((img) => {
+      const image = new Image();
+      image.src = `${import.meta.env.BASE_URL}${img}`;
+    });
+  }, [images]);
+    
   return (
     <div className="content-template">
       {/* LEFT COLUMN */}
@@ -27,7 +34,6 @@ export default function ContentTemplate({ title, textSections, images }) {
       {/* RIGHT COLUMN — IMAGE ONLY */}
       <div className="image-only">
         <img
-          loading="lazy"
           src={`${import.meta.env.BASE_URL}${images[index]}`}
           alt={`Slide ${index + 1}`}
           className="slider-image"
