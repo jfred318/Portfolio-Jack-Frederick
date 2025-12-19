@@ -227,7 +227,7 @@ export default function App() {
             ]}
             images={[
               "Screenshot 2025-12-19 at 9.15.37 AM.png",
-              "Search 2.png",
+              "IMG_1136.JPG",
               "stockPicL 2.png",
               "stockPic3 2.png",
               "finSim 2.png",
