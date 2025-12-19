@@ -473,6 +473,20 @@
 }
 
 /* MOBILE */
+
+.mobile-warning {
+  display: none;
+  height: 100vh;
+  background-color: #4a90e2;
+  color: white;
+  font-family: 'Fredoka One';
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* MOBILE ONLY */
 @media (max-width: 900px) {
   .snap-container {
     display: none;
@@ -481,16 +495,4 @@
   .mobile-warning {
     display: flex;
   }
-}
-
-.mobile-warning {
-  display: none;
-  height: 100vh;
-  background: #4a90e2;
-  color: white;
-  font-family: 'Fredoka One';
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 2rem;
 }
