@@ -7,7 +7,7 @@ export default function ContentTemplate({ title, textSections, images }) {
     <div className="content-template">
       {/* LEFT COLUMN */}
       <div className="text-column">
-        {/* DOTS ABOVE TEXT (FIXED POSITION) */}
+        {/* DOTS ABOVE TEXT */}
         <div className="slider-dots">
           {images.map((_, i) => (
             <span
@@ -27,7 +27,8 @@ export default function ContentTemplate({ title, textSections, images }) {
       {/* RIGHT COLUMN — IMAGE ONLY */}
       <div className="image-only">
         <img
-          src={images[index]}
+          loading="lazy"
+          src={`${import.meta.env.BASE_URL}${images[index]}`}
           alt={`Slide ${index + 1}`}
           className="slider-image"
         />

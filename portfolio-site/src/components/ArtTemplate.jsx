@@ -27,7 +27,8 @@ export default function ArtTemplate({ title, pieces }) {
             onMouseLeave={() => setActiveTitle("")}
           >
             <img
-              src={piece.src}
+              loading="lazy"
+              src={`${import.meta.env.BASE_URL}${piece.src}`}
               alt={piece.title}
               className="art-image"
             />

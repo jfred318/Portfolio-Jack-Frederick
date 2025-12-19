@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+portfolio-site/node_modules/
+portfolio-site/dist/
 
 # Build output
 dist/

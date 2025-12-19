@@ -220,13 +220,13 @@ export default function App() {
       My first coding project — and the starting point for everything that followed.`,
           ]}
           images={[
-            "/Screenshot 2025-12-19 at 9.15.37 AM.png",
-            "/Search.png",
-            "/stockPicL.png",
-            "/stockPic3.png",
-            "/finSim.png",
-            "/Screenshot 2025-12-19 at 10.08.02 AM.png",
-            "/Screenshot 2025-12-17 at 9.53.07 AM.png",
+            "Screenshot 2025-12-19 at 9.15.37 AM.png",
+            "Search.png",
+            "stockPicL.png",
+            "stockPic3.png",
+            "finSim.png",
+            "Screenshot 2025-12-19 at 10.08.02 AM.png",
+            "Screenshot 2025-12-17 at 9.53.07 AM.png",
           ]}
         />
       </div>
@@ -303,49 +303,49 @@ export default function App() {
           pieces={[
             {
               title: "AMP Logo",
-              src: "/AMP.png",
+              src: "AMP.png",
               top: "8%",
               left: "8%",
               size: "290px",
             },
             {
               title: "Personal Logo",
-              src: "/JFLogo.png",
+              src: "JFLogo.png",
               top: "10%",
               left: "68%",
               size: "220px",
             },
             {
               title: "AMP Flyer",
-              src: "/Flyer4.png",
+              src: "Flyer4.png",
               top: "46%",
               left: "6%",
               size: "210px",
             },
             {
               title: "Niche Logo",
-              src: "/NicheLogoElement.png",
+              src: "NicheLogoElement.png",
               top: "50%",
               left: "77%",
               size: "200px",
             },
             {
               title: "Swung Logo",
-              src: "/SwungLogo.png",
+              src: "SwungLogo.png",
               top: "32%",
               left: "28%",
               size: "200px",
             },
             {
               title: "Niche Logo Alt. 2",
-              src: "/NicheLogoHexWord.png",
+              src: "NicheLogoHexWord.png",
               top: "64%",
               left: "40%",
               size: "230px",
             },
             {
               title: "Niche Logo Alt.",
-              src: "/NicheLogoSmallTable.png",
+              src: "NicheLogoSmallTable.png",
               top: "29%",
               left: "51%",
               size: "230px",
