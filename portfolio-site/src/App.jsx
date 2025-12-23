@@ -389,6 +389,18 @@ export default function App() {
                 My favorite part has easily been revisiting my old projects. For instance, Skater’s Journey was my first ever coding project (and it definitely looks like it), completed in the spring of 2023 for an English class. It’s crazy to think that one assignment has led me to where I am now, a third-year software engineering student at an incredible university.
 
                 The drastic improvement in my skills over the past few years has inspired me to see how far I can go. This blog will share both my accomplishments and my ambitions: what I worked on throughout the day, as well as what’s keeping me up at night. I may not be a master of everything or a jack of all trades, but I believe I show passion in my work, and I hope those reading this see it too.`
+              },
+              {
+                date: "Dec 23, 2025",
+                content: `Let's talk money.
+                I will soon be entering a paper-trading competition with a couple of my close friends. We have started the dive into quant research and look to test our knowledge. 
+                
+                The competition is simple: make 3 algorithms, give them $10,000 each (fake money, we are college kids), then review their performance after two months.
+                
+                With 3 people creating 3 algorithms, we hope to identify a few profitable ones. Then, we will use our own funding to 'put our money where our mouth is'. 
+                
+                This is the real reason I created this blog. I want to hold myself accountable for honest work; if the algorithms suck, I need to take it on the chin and redesign.
+                `
               }
               
             ]}
