@@ -1,6 +1,14 @@
 // TO VIEW WHILE TESTING:
 // CD directory
 // npm run dev
+
+// Push Changes
+// git add .
+// git commit -m "  "
+// git push
+// npm run build
+// npm run deploy
+
 import { ChevronDown } from 'lucide-react';
 import Marquee from 'react-fast-marquee'; 
 import { useState, useEffect } from 'react';
@@ -129,110 +137,117 @@ export default function App() {
         </div>
     
         <div className="snap-section">
-          <ContentTemplate
+          <BlogTemplate
             title="Projects"
-            textSections={[
-              `Stock Correlation & Metrics Analyzer
+            posts={[
+              {
+                date: "Stock Correlation & Metrics Analyzer",
+                content: `The Idea
+                  Analyze relationships between multiple stocks and produce meaningful analytics.
 
-        The Idea
-        Analyze relationships between multiple stocks and produce meaningful analytics.
+                  Features
+                  • Historical pricing showcase
+                  • Correlation and cointegration analysis
+                  • Risk and performance metrics
+                  • CSV and PDF reporting exports
 
-        Features
-        • Historical pricing showcase
-        • Correlation and cointegration analysis
-        • Risk and performance metrics
-        • CSV and PDF reporting exports
+                  Outcome
+                  One of my most practically useful tools for evaluating market relationships.
+                  
+                  Fall 2025`
+              },
+              {
+                date: "Super Search",
+                content: `The Idea
+                  Efficiently track and query assets across the enterprise.
 
-        Outcome
-        One of my most practically useful tools for evaluating market relationships.`,
+                  Features
+                  • Fast search logic 
+                  • Designed for internal operational use
+                  • Description based filtering to identify related assets
+                
+                  Outcome
+                  A technically advanced project built to solve real workplace problems.
+                  
+                  Summer 2025`
+              },
+              {
+                date: "Python Scripted Email Updater",
+                content: ` The Idea
+                  Automaticly email portfolio updates.
 
-              `Super Search (Unable to show image)
+                  Features
+                  • Automated data pulls
+                  • Summary metric generation
+                  • Scheduled email delivery
+                  • Powered by AWS
 
-        The Idea
-        Efficiently track and query assets accross the enterprise.
+                  Outcome
+                  Turned a manual task into a fully automated workflow.
+                  
+                  Fall 2024`
+              },
+              {
+                date: "Swung (Virtual Caddie Prototype)",
+                content: ` The Idea
+                  Estimate club distances and recommend shots based on user input and conditions.
 
-        Features
-        • Fast search logic 
-        • Designed for internal operational use
-        • Description based filtering to identify related assets
-      
-        Outcome
-        A technically advanced project built to solve real workplace problems.`,
+                  Features
+                  • Distance prediction logic
+                  • Weather and terrain adjustments
+                  • Mobile UI prototype
 
-              `Python Scripted Email Updater
+                  Outcome
+                  An ambitious prototype that prepared me to take on larger projects.
+                  
+                  Summer 2024`
+              },
+              {
+                date: "Backtest AI Stock Predictor",
+                content: ` The Idea
+                  Predict short-term stock movement using machine learning models.
 
-        The Idea
-        Automaticly email portfolio updates.
+                  Features
+                  • Feature extraction from historical data
+                  • Model training and backtesting
+                  • Performance evaluation and iteration
 
-        Features
-        • Automated data pulls
-        • Summary metric generation
-        • Scheduled email delivery
-        • Powered by AWS
+                  Outcome
+                  The model underperformed, but the project grew my understanding of ML models far greater than expected.
+                  
+                  Fall 2025`
+              },
+              {
+                date: "Work-It-Out",
+                content: ` The Idea
+                  Generate personalized workout routines without manual planning.
 
-        Outcome
-        Turned a manual task into a fully automated workflow.`,
+                  Features
+                  • Rule-based routine generation
+                  • User input handling
+                  • Web-based interface
 
-              `Swung (Virtual Caddie Prototype)
+                  Outcome
+                  A practical project focused on UX and UI design.
+                  
+                  Fall 2024`
+              },
+              {
+                date: "Skater’s Journey",
+                content: ` The Idea
+                  Learn programming fundamentals through a school project.
 
-        The Idea
-        Estimate club distances and recommend shots based on user input and conditions.
+                  Features
+                  • Basic game mechanics
+                  • Related to stories read in class
+                  • Early experimentation with logic and structure
 
-        Features
-        • Distance prediction logic
-        • Weather and terrain adjustments
-        • Mobile UI prototype
-
-        Outcome
-        An ambitious prototype that taught prepared me to take on large projects.`,
-
-              `Backtest AI Stock Predictor
-
-        The Idea
-        Predict short-term stock movement using machine learning models.
-
-        Features
-        • Feature extraction from historical data
-        • Model training and backtesting
-        • Performance evaluation and iteration
-
-        Outcome
-        The model underperformed, but the project grew my understanding of ML models far greater than expected.`,
-
-              `Work-It-Out
-
-        The Idea
-        Generate personalized workout routines without manual planning.
-
-        Features
-        • Rule-based routine generation
-        • User input handling
-        • Web-based interface
-
-        Outcome
-        A practical project focused on UX and UI design.`,
-
-              `Skater’s Journey
-
-        The Idea
-        Learn programming fundamentals through a school project.
-
-        Features
-        • Basic game mechanics
-        • Related to stories read in class
-        • Early experimentation with logic and structure
-
-        Outcome
-        My first coding project — and the starting point for everything that followed.`,
-            ]}
-            images={[
-              "Screenshot 2025-12-19 at 9.15.37 AM.png",
-              "IMG_1136.png",
-              "stockPicL 2.png",
-              "stockPic3 2.png",
-              "finSim 2.png",
-              "Screenshot 2025-12-19 at 10.08.02 AM 2.png",
-              "Screenshot 2025-12-17 at 9.53.07 AM 2.png",
+                  Outcome
+                  My first coding project, the starting point for everything that followed.
+                  
+                  Spring 2023`
+              }
+              
             ]}
           />
         </div>
