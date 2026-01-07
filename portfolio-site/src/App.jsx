@@ -65,7 +65,7 @@ export default function App() {
     "Long-Time Investor",
     "Music Production Club Founder",
     "Raised in Atlanta",
-    "Experinced in Cybersecurity",
+    "Experienced in Cybersecurity",
     "Die Hard Clippers Fan",
     "Favorite Food: Tacos",
     "Avid Golfer"
@@ -152,7 +152,7 @@ export default function App() {
                   • CSV and PDF reporting exports
 
                   Outcome
-                  One of my most practically useful tools for evaluating market relationships.
+                  One of my most practical tools for evaluating market relationships.
                   
                   Fall 2025`
               },
@@ -174,7 +174,7 @@ export default function App() {
               {
                 date: "Python Scripted Email Updater",
                 content: ` The Idea
-                  Automaticly email portfolio updates.
+                  Automatically email portfolio updates.
 
                   Features
                   • Automated data pulls
@@ -286,7 +286,7 @@ export default function App() {
                 title: "Teacher's Assistant",
                 start: 2022,
                 end: 2023,
-                description: "Shadowed the schools IB Environmental class and led instructional periods"
+                description: "Shadowed the school's IB Environmental class and led instructional periods"
               },
               {
                 title: "Soccer Referee",
@@ -298,7 +298,7 @@ export default function App() {
                 title: "Riverwood Internation Charter School",
                 start: 2019,
                 end: 2023,
-                description: "Particpated in Varisty sports as well as community service and honors organizations"
+                description: "Participated in Varisty sports as well as community service and honors organizations"
               },
               {
                 title: "Auburn University",
@@ -310,7 +310,7 @@ export default function App() {
                 title: "Caddie",
                 start: 2020,
                 end: 2022,
-                description: "Improved member's level of play while maintaining the prestige look of the club"
+                description: "Improved the level of play while maintaining the prestige look of the club for each member"
               }
             ]}
           />
@@ -385,23 +385,39 @@ export default function App() {
                 date: "Dec 19, 2025",
                 content: `Welcome to my blog!
                 I write this as I wrap up the new design of my personal website. It has been both a fun and grueling process bringing this site to completion.
-
                 My favorite part has easily been revisiting my old projects. For instance, Skater’s Journey was my first ever coding project (and it definitely looks like it), completed in the spring of 2023 for an English class. It’s crazy to think that one assignment has led me to where I am now, a third-year software engineering student at an incredible university.
-
                 The drastic improvement in my skills over the past few years has inspired me to see how far I can go. This blog will share both my accomplishments and my ambitions: what I worked on throughout the day, as well as what’s keeping me up at night. I may not be a master of everything or a jack of all trades, but I believe I show passion in my work, and I hope those reading this see it too.`
               },
               {
                 date: "Dec 23, 2025",
                 content: `Let's talk money.
-                I will soon be entering a paper-trading competition with a couple of my close friends. We have started the dive into quant research and look to test our knowledge. 
-                
+                I will soon be entering a paper-trading competition with a couple of my close friends. We have started the dive into quant research and look to test our knowledge.
+              
                 The competition is simple: make 3 algorithms, give them $10,000 each (fake money, we are college kids), then review their performance after two months.
-                
-                With 3 people creating 3 algorithms, we hope to identify a few profitable ones. Then, we will use our own funding to 'put our money where our mouth is'. 
-                
+              
+                With 3 people creating 3 algorithms, we hope to identify a few profitable ones. Then, we will use our own funding to 'put our money where our mouth is'.
+              
                 This is the real reason I created this blog. I want to hold myself accountable for honest work; if the algorithms suck, I need to take it on the chin and redesign.
                 `
+              },
+              {
+                date: "Jan 7, 2026",
+                content: `New Year, New Oil?
+                In light of the recent capture of Venezuela's President, Nicolás Maduro, I want to take some time to reflect on the current market climate and consider potential market health forecasting.
+
+                Warren Buffett's first rule of investing is "Never Lose Money"; his second is "Never Forget Rule #1". When any potential market-shaking event unfolds in the world, it is critical to step back and anticipate how various companies or industries might get set off course. In the last six months of the year, the S&P 500 grew at a rate north of 11%, with some companies far outperforming that, like Broadcom (~27%). 
+
+       While news outlets have focused on details surrounding Maduro’s capture, I’d like to aim my attention towards the financial world. Banks like Morgan Stanley have predicted a bullish 2026 to follow up on the impressive final two quarters of 2025. After the immediate market reactions to the capture, it seems this prediction may not be too far-fetched. These banks also predict that the ‘Mag 7’ will dominate the year and continue to grow their market share.
+       
+        So what’s the verdict? It is critical, as Buffett preaches, not to lose money. While bullish signs are present, it is important not to overreact to speculation. I would expect the market to see 1-3 months of decline early into 2026. I believe it will come from fiscal warfare, as anti-US or pro-Venezuelan nations target the American economy. While the domestic market health may be uncertain, investors need to increase diversification to hedge against a possible dip in the future.
+              
+                `
               }
+ 
+ 
+ 
+ 
+ 
               
             ]}
           />
