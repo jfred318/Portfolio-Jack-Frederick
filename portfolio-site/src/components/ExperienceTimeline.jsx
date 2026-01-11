@@ -9,24 +9,21 @@ export default function ExperienceTimeline({ title, experiences, startYear, endY
     return ((year - startYear) / (endYear - startYear)) * 100;
   };
 
-  // =====================================================
-  // 🔥 OVERLAP DETECTION — AUTOMATIC ROW ASSIGNMENT
-  // =====================================================
-  const rows = []; // array of rows (each row holds bars)
+
+  const rows = []; 
   const barRows = experiences.map((exp) => {
     for (let row = 0; ; row++) {
-      // If row doesn't exist yet → create it
+
       if (!rows[row]) {
         rows[row] = [{ start: exp.start, end: exp.end }];
         return row;
       }
 
-      // Check if this exp overlaps ANY bar already in this row
+  
       const hasOverlap = rows[row].some((b) => {
         return !(exp.end < b.start || exp.start > b.end);
       });
 
-      // If no overlap → place exp in this row
       if (!hasOverlap) {
         rows[row].push({ start: exp.start, end: exp.end });
         return row;
@@ -34,12 +31,10 @@ export default function ExperienceTimeline({ title, experiences, startYear, endY
     }
   });
 
-  // =====================================================
-  // JSX RETURN
-  // =====================================================
+
   return (
     <div className="experience-template">
-      {/* YELLOW TEXT BOX */}
+
       <div className="experience-text-box">
         {active !== null ? (
           <>
@@ -70,7 +65,7 @@ export default function ExperienceTimeline({ title, experiences, startYear, endY
           );
         })}
 
-        {/* YEARS */}
+
         <div className="year-row">
           {years.map((yr) => (
             <div key={yr} className="year-label">

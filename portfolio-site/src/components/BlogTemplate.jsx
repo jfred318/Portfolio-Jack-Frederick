@@ -5,9 +5,7 @@ export default function BlogTemplate({ title, posts }) {
 
   return (
     <div className="blog-template">
-      {/* BLOG BOX */}
       <div className="blog-box">
-        {/* HEADER */}
         <div className="blog-header">
           <h2 className="blog-date">{posts[activeIndex].date}</h2>
 
@@ -24,13 +22,12 @@ export default function BlogTemplate({ title, posts }) {
           </select>
         </div>
 
-        {/* CONTENT */}
+
         <div className="blog-content">
           <p>{posts[activeIndex].content}</p>
         </div>
       </div>
 
-      {/* PAGE TITLE */}
       <h1 className="page-title">{title}</h1>
     </div>
   );

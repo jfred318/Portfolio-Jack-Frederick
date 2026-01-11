@@ -13,9 +13,9 @@ export default function ContentTemplate({ title, textSections, images }) {
     
   return (
     <div className="content-template">
-      {/* LEFT COLUMN */}
+
       <div className="text-column">
-        {/* DOTS ABOVE TEXT */}
+
         <div className="slider-dots">
           {images.map((_, i) => (
             <span
@@ -26,13 +26,13 @@ export default function ContentTemplate({ title, textSections, images }) {
           ))}
         </div>
 
-        {/* TEXT BOX */}
+
         <div className="text-box">
           <p>{textSections[index]}</p>
         </div>
       </div>
 
-      {/* RIGHT COLUMN — IMAGE ONLY */}
+
       <div className="image-only">
         <img
           src={`${import.meta.env.BASE_URL}${images[index]}`}
@@ -41,7 +41,7 @@ export default function ContentTemplate({ title, textSections, images }) {
         />
       </div>
 
-      {/* PAGE TITLE */}
+
       <h1 className="page-title">{title}</h1>
     </div>
   );

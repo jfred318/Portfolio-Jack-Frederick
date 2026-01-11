@@ -5,12 +5,10 @@ export default function ArtTemplate({ title, pieces }) {
 
   return (
     <div className="art-template">
-      {/* TITLE BOX */}
       <div className="art-title-box">
         {activeTitle || "Hover over a piece"}
       </div>
 
-      {/* ART CANVAS */}
       <div className="art-canvas">
         {pieces.map((piece, index) => (
           <div
